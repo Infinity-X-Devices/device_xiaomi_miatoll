@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bliss_miatoll.mk
+    $(LOCAL_DIR)/infinity_miatoll.mk

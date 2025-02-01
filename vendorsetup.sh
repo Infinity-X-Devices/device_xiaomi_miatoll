@@ -1,9 +1,7 @@
 color="\033[1;36m"
 end="\033[0m"
 
-# Common DT
-echo -e "${color}Cloning Common DT${end}"
-git clone -b 15-bliss https://github.com/ihsanulrahman/device_xiaomi_sm6250-common device/xiaomi/sm6250-common
+git clone -b 15 https://github.com/Infinity-X-Devices/device_xiaomi_sm6250-common device/xiaomi/sm6250-common
 
 # Vendor & Kernel Sources
 echo -e "${color}Cloning vendor${end}"
@@ -11,7 +9,7 @@ git clone --depth=1 -b 15 https://github.com/ihsanulrahman/vendor_xiaomi_miatoll
 git clone --depth=1 -b 15 https://github.com/ihsanulrahman/vendor_xiaomi_sm6250-common vendor/xiaomi/sm6250-common
 
 echo -e "${color}Cloning kernel${end}"
-git clone --depth=1 -b 15.0 https://github.com/ihsanulrahman/android_kernel_xiaomi_sm6250 kernel/xiaomi/sm6250
+git clone --depth=1 -b nonksu https://github.com/ihsanulrahman/android_kernel_xiaomi_sm6250 kernel/xiaomi/sm6250
 
 sleep 1
 
